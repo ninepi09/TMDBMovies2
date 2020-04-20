@@ -5,11 +5,11 @@
 
     <variable
       name="person"
-      type="com.imobilenetid.themovies.models.entity.Person" />
+      type="com.skydoves.themovies.models.entity.Person" />
 
     <variable
       name="viewModel"
-      type="com.imobilenetid.themovies.view.ui.details.person.PersonDetailViewModel" />
+      type="com.skydoves.themovies.view.ui.details.person.PersonDetailViewModel" />
   </data>
 
   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

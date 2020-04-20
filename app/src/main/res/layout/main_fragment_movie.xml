@@ -7,11 +7,11 @@
 
     <variable
       name="viewModel"
-      type="com.imobilenetid.themovies.view.ui.main.MainActivityViewModel" />
+      type="com.skydoves.themovies.view.ui.main.MainActivityViewModel" />
 
     <variable
       name="adapter"
-      type="com.imobilenetid.themovies.view.adapter.MovieListAdapter" />
+      type="com.skydoves.themovies.view.adapter.MovieListAdapter" />
   </data>
 
   <androidx.recyclerview.widget.RecyclerView

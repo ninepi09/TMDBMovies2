@@ -24,12 +24,12 @@ def getProperty(String filename, String propName) {
 android {
     compileSdkVersion rootProject.compileSdkVersion
     defaultConfig {
-        applicationId "com.imobilenetid.themovies"
+        applicationId "com.skydoves.themovies"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode rootProject.versionCode
         versionName rootProject.versionName
-        testInstrumentationRunner "com.imobilenetid.themovies.runner.AndroidJunitTestRunner"
+        testInstrumentationRunner "com.skydoves.themovies.runner.AndroidJunitTestRunner"
         buildConfigField "String", "TMDB_API_KEY", "\"${getProperty("local.properties", "tmdb_api_key")}\""
     }
     compileOptions {

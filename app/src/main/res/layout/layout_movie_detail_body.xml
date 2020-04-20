@@ -7,19 +7,19 @@
 
     <variable
       name="movie"
-      type="com.imobilenetid.themovies.models.entity.Movie" />
+      type="com.skydoves.themovies.models.entity.Movie" />
 
     <variable
       name="viewModel"
-      type="com.imobilenetid.themovies.view.ui.details.movie.MovieDetailViewModel" />
+      type="com.skydoves.themovies.view.ui.details.movie.MovieDetailViewModel" />
 
     <variable
       name="videoAdapter"
-      type="com.imobilenetid.themovies.view.adapter.VideoListAdapter" />
+      type="com.skydoves.themovies.view.adapter.VideoListAdapter" />
 
     <variable
       name="reviewAdapter"
-      type="com.imobilenetid.themovies.view.adapter.ReviewListAdapter" />
+      type="com.skydoves.themovies.view.adapter.ReviewListAdapter" />
   </data>
 
   <LinearLayout
